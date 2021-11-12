@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XsqbCxMJCqFJbP/xbCCAdsQdRp2QzxXFB5VHMM9SCco39Npd0BdArmLhBWJQYPXWOd7NeQgpa68S0Imfw9INpg==",
+  "dgSpecHash": "hjES1dAAo0y1BZzebhR5KR4wT59XYC1ScsDjPeiyA2cHoA2xb7nA0pfT9+UtDwF2WuErPhke88j8kvxU2k8glw==",
   "success": true,
-  "projectFilePath": "E:\\AdvC#\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
+  "projectFilePath": "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

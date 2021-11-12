@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AdvC#\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj": {}
+    "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj": {}
   },
   "projects": {
-    "E:\\AdvC#\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj": {
+    "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AdvC#\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
+        "projectUniqueName": "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
         "projectName": "ObserverPattern",
-        "projectPath": "E:\\AdvC#\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\AdvC#\\advanced-csharp\\Code\\ObserverPattern\\obj\\",
+        "projectPath": "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
+        "packagesPath": "C:\\Users\\320104089\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\ObserverPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\320104089\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PhilipsMA/_packaging/PatientMonitoring%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

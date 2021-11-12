@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t7XbUtkhPA5X71pWEe93UKVRog/Z6OE620jGnK2tfH14VYAop/gCRzArd97O9Ze718FgWAqN7z1Uo3/L7xZPGQ==",
+  "dgSpecHash": "QvaJNplEu3WLDPm4AEuWEnoZTP+wThDXSd/83daM3r0RgZkdGIgJCdmBXm+X7B5p5wR8KBVrBS+GmJBJCvV2ZA==",
   "success": true,
-  "projectFilePath": "E:\\AdvC#\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
+  "projectFilePath": "C:\\Users\\320104089\\OneDrive - Philips\\Desktop\\C# Training\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
