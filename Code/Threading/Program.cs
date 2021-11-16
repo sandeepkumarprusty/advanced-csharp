@@ -56,10 +56,10 @@ namespace Threading
             //SendSms();                                                                                                          //- I
             System.Threading.ThreadStart _sendEmailFunRef = new System.Threading.ThreadStart(Program.SendEmail);                //- II
             System.Threading.Thread _emailThread = new System.Threading.Thread(_sendEmailFunRef);                               //- II
-                                                                                                                                //// Background threads run only until the last foreground thread returns, after that they are aborted
-                                                                                                                                //// By default, System.Threading.Thread is foreground
-                                                                                                                                //_emailThread.IsBackground = true;                                                                                   //- III
-                                                                                                                                //_emailThread.Start();                                                                                               //- II
+            //// Background threads run only until the last foreground thread returns, after that they are aborted
+            //// By default, System.Threading.Thread is foreground
+            //_emailThread.IsBackground = true;                                                                                   //- III
+            //_emailThread.Start();                                                                                               //- II
 
             //// ThreadPool threads are background threads
             //// WaitCallback delegate used to pass wrapper function of the method to be queued
