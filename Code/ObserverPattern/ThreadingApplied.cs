@@ -10,8 +10,7 @@ namespace ObserverPatternThreading
 
     public class Order
     {
-        //public event Action<string> OrderStateChanged;//event
-        public event ParameterizedThreadStart OrderStateChanged;
+        public event Action<string> OrderStateChanged;//event
         //orderClosedEvent - new
         public event Action<string> OrderClosed;
         string orderId;
@@ -37,9 +36,13 @@ namespace ObserverPatternThreading
         {
             if (OrderStateChanged != null)
             {
-                Thread callThread = new Thread(OrderStateChanged);
-                callThread.Start(orderId);
                 //this.OrderStateChanged.Invoke(this.orderId);//one->Many (Multicast Delegate Instance)
+                //this.OrderStateChanged.BeginInvoke(orderId, null, null);
+                Delegate[] invocationArray = this.OrderStateChanged.GetInvocationList();
+                foreach (Action<string> method in invocationArray)
+                {
+                    new Thread(new ParameterizedThreadStart((object obj) => { method.Invoke(obj.ToString()); })).Start(this.orderId);
+                }
             }
         }
 
@@ -75,27 +78,21 @@ namespace ObserverPatternThreading
 
     public class EmailNotifificationSystem
     {
-        public void SendMail(object evtData)
-        {
-            Console.WriteLine($"Email Sent  {evtData}");
-            Thread.Sleep(1000);
-        }
+        public void SendMail(string evtData) { Console.WriteLine($"Email Sent  {evtData}"); }
     }
     public class SMSNotificationSystem
     {
-        public void SendSMS(object evtData)
+        public void SendSMS(string evtData)
         {
             Console.WriteLine($"SMS Sent  {evtData}");
-            Thread.Sleep(1000);
         }
     }
 
     public class WhatsappNotificationSystem
     {
-        public void SendWhatsapp(object eventData)
+        public void SendWhatsapp(string eventData)
         {
             Console.WriteLine($"Whatsapp sent {eventData}");
-            Thread.Sleep(1000);
         }
     }
 
@@ -108,22 +105,18 @@ namespace ObserverPatternThreading
             WhatsappNotificationSystem _whatsappSystem = new WhatsappNotificationSystem();
             AuditSystem _auditSystem = new AuditSystem();
 
-            //Action<string> _emailObserver = new Action<string>(_emailSystem.SendMail);
-            ParameterizedThreadStart _emailRef = new ParameterizedThreadStart(_emailSystem.SendMail);
+            Action<string> _emailObserver = new Action<string>(_emailSystem.SendMail);
 
-            //Action<string> _smsObserver = new Action<string>(_smsSystem.SendSMS);
-            ParameterizedThreadStart _smsRef = new ParameterizedThreadStart(_smsSystem.SendSMS);
+            Action<string> _smsObserver = new Action<string>(_smsSystem.SendSMS);
 
-
-            //Action<string> _whatsappObserver = new Action<string>(_whatsappSystem.SendWhatsapp);
-            ParameterizedThreadStart _whatsappRef = new ParameterizedThreadStart(_whatsappSystem.SendWhatsapp);
+            Action<string> _whatsappObserver = new Action<string>(_whatsappSystem.SendWhatsapp);
 
             Action<string> _auditObserver = new Action<string>(_auditSystem.CreateAudit);
 
             Order _order1 = new Order();
-            _order1.OrderStateChanged += _emailRef;// Add_OrderStateChanged(_emailObserver)
-            _order1.OrderStateChanged += _smsRef;
-            _order1.OrderStateChanged += _whatsappRef;
+            _order1.OrderStateChanged += _emailObserver;// Add_OrderStateChanged(_emailObserver)
+            _order1.OrderStateChanged += _smsObserver;
+            _order1.OrderStateChanged += _whatsappObserver;
             _order1.OrderClosed += _auditObserver;
 
             _order1.ChangeState(OrderState.CONFIRMED);
