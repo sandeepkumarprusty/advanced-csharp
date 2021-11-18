@@ -9,7 +9,7 @@ namespace ASynchronousProgram
         {
             Console.WriteLine("Main started");
             string content = "Hello World!!";
-            SanitizeDocumentContentAsync(content);
+            SignDocumnetUsingDSAsync(content);
 
             while (true)
             {
