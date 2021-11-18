@@ -9,3 +9,15 @@ C:\Users\user\source\repos\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.csproj.Co
 C:\Users\user\source\repos\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.dll
 C:\Users\user\source\repos\Code\PicTestLib\obj\Debug\net5.0\ref\PicTestLib.dll
 C:\Users\user\source\repos\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.pdb
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\bin\Debug\net5.0\PicTestLib.deps.json
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\bin\Debug\net5.0\PicTestLib.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\bin\Debug\net5.0\ref\PicTestLib.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\bin\Debug\net5.0\PicTestLib.pdb
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.csproj.AssemblyReference.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.AssemblyInfoInputs.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.AssemblyInfo.cs
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.csproj.CoreCompileInputs.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\ref\PicTestLib.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\PicTestLib\obj\Debug\net5.0\PicTestLib.pdb

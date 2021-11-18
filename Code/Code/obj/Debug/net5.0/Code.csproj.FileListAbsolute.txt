@@ -14,3 +14,19 @@ C:\Users\user\source\repos\Code\Code\obj\Debug\net5.0\Code.dll
 C:\Users\user\source\repos\Code\Code\obj\Debug\net5.0\ref\Code.dll
 C:\Users\user\source\repos\Code\Code\obj\Debug\net5.0\Code.pdb
 C:\Users\user\source\repos\Code\Code\obj\Debug\net5.0\Code.genruntimeconfig.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\Code.exe
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\Code.deps.json
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\Code.runtimeconfig.json
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\Code.runtimeconfig.dev.json
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\Code.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\ref\Code.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\bin\Debug\net5.0\Code.pdb
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.csproj.AssemblyReference.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.AssemblyInfoInputs.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.AssemblyInfo.cs
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.csproj.CoreCompileInputs.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\ref\Code.dll
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.pdb
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\Code\obj\Debug\net5.0\Code.genruntimeconfig.cache
