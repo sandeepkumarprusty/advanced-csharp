@@ -13,3 +13,4 @@ C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\R
 C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\ResourceMgmt\obj\Debug\net5.0\ref\ResourceMgmt.dll
 C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\ResourceMgmt\obj\Debug\net5.0\ResourceMgmt.pdb
 C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\ResourceMgmt\obj\Debug\net5.0\ResourceMgmt.genruntimeconfig.cache
+C:\Users\320104089\OneDrive - Philips\Desktop\C# Training\advanced-csharp\Code\ResourceMgmt\obj\Debug\net5.0\ResourceMgmt.csproj.AssemblyReference.cache
