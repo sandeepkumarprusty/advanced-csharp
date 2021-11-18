@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threading", "Threading\Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASynchronousProgram", "ASynchronousProgram\ASynchronousProgram.csproj", "{3EE71D8A-E77C-4FE2-8EBC-AA5BD9A7CCD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMgmt", "MemoryMgmt\MemoryMgmt.csproj", "{97BD4CDE-84AA-4BB1-8524-378A6E99E865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3EE71D8A-E77C-4FE2-8EBC-AA5BD9A7CCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE71D8A-E77C-4FE2-8EBC-AA5BD9A7CCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE71D8A-E77C-4FE2-8EBC-AA5BD9A7CCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BD4CDE-84AA-4BB1-8524-378A6E99E865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BD4CDE-84AA-4BB1-8524-378A6E99E865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BD4CDE-84AA-4BB1-8524-378A6E99E865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BD4CDE-84AA-4BB1-8524-378A6E99E865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
